@@ -1,0 +1,48 @@
+.outerbox{
+    background-color: rgb(249, 180, 52);
+    margin: 80px 350px;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+.calc{
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    text-align: end;
+    font-size: 50px;
+}
+button{
+    height: 48px;
+    width: 68px;
+    font-size:large;
+    border-collapse: collapse;
+}
+.col2{
+    margin-left:-8px ;
+}
+.col3{
+    margin-left:-10px ;
+}
+.col4{
+    margin-left:-12px ;
+    background-color: rgb(255, 71, 4);
+}
+#output{
+    height: 100px;
+    background-color: rgb(0, 0, 22);
+    border:none;
+    color: white;
+}
